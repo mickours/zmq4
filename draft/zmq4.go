@@ -66,9 +66,8 @@ void *zmq4_memcpy(void *dest, const void *src, size_t n) {
     return memcpy(dest, src, n);
 }
 */
-import "C"
-
 import (
+	"C"
 	"errors"
 	"fmt"
 	"runtime"
